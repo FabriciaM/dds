@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <link rel="stylesheet" href="imc.css">
+    <script src="imc.js" defer></script>
+</head>
+<body>
+    <h1> Calculo IMC</h1>
+    <form id="limpar">
+   Digite seu nome: <input type="text" class="nome" id="nomeid"></input> <br>
+  <br> Digite seu sexo (M/F): <input type="text" class="sexo" id="sexoid"></input><br>
+  <br> Digite sua altura: <input type="tel" class="altura" id="alturaid"></input> <br>
+  <br> Digite seu peso: <input type="number" class="peso" id="pesoid"></input> <br>
+  <br><button class="button" onclick="clear()">Limpar</button>
+</form>
+  <br><button class="buttonx" onclick="IMC()"> Calcular</button>
+  
+
+  <h3 id="mulherid"></h3>
+  <h3 id="homemid"></h3>
+  <h3 id="resid"></h3>
+
+</body>
+</html>

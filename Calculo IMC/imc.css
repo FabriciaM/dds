@@ -1,0 +1,26 @@
+body{
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgb(178, 253, 253);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.button{
+    background-color: black;
+    color:white;
+    width: 100px;
+    height: 30px;
+    
+}
+.buttonx{
+    background-color: black;
+    color:white;
+    width: 100px;
+    height: 30px;
+    
+    
+    
+}
