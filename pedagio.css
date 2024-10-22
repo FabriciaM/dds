@@ -1,0 +1,36 @@
+body{
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(https://thumbs.dreamstime.com/z/cartaz-do-cart%C3%A3o-ped%C3%A1gio-de-estrada-pagamento-dos-desenhos-animados-vetor-115130705.jpg);
+    font-family: cursive;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button{
+    height: 30px;
+    width: 200px;
+    font-size: larger;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border:2px solid white;
+}
+.horai,.minutoi,.horat,.minutot{
+    width: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border:2px solid white;
+}
+.placai{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border:2px solid white;
+}
